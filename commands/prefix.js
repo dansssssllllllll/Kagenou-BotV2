@@ -50,17 +50,9 @@ module.exports = {
 
             const message = 
 
-                "System Prefix Information\n\n" +
+                "System Prefix Information\n" +
 
-                " [🌐] Main System Prefix: " + mainPrefix + "\n" +
-
-                "[👾] Tokito System Prefix: " + tokitoPrefix + "\n" +
-
-                "[🗡️] Cid-Kagenou System Prefix: " + cidPrefix + "\n" +
-
-                "[🎭] VIP System Prefix: " + vipPrefix + "\n\n" +
-
-                "To use commands, type the system prefix followed by the command name.";
+                "My Prefix: /";
 
             api.sendMessage(message, event.threadID, event.messageID);
 
